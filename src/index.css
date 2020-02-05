@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+body {
+  background: hsl(208, 100%, 97%);
+  /* background: hsl(208, 65%, 43%); */
+}
+
 .main {
   border: 2px solid black;
   border-radius: 16px;
@@ -29,12 +34,24 @@ button { padding: 0.3rem }
 
 .card {
   margin: 1rem;
-  border: 1px solid black;
-  border-radius: 0.2rem;
+  background: hsl(200, 33%, 98%);
+  border: 1px solid #ddd;
   width: 30%;
+  box-shadow: 2px 2px 8px hsla(0, 0%, 5%, 0.05)
+}
+
+.card-head {
+  position: relative;
+  height: 50%;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 1rem;
 }
 
 .card-img {
-  width: 100%;
-  margin: 3px
+  position: relative;
+  top: -120px;
+  width: 110%;
 }

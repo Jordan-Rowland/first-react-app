@@ -20,13 +20,13 @@ function Card(props) {
 
   return (
     <div className="card">
-      {/* <div className="card-head">
+      <div className="card-head">
         <img className="card-img" src={props.src}/>
       </div>
       <div className="card-body">
         {props.textContent}
-      </div> */}
-      <p>
+      </div>
+      {/* <p>
       {object.animal}
       </p>
       <p>
@@ -37,12 +37,13 @@ function Card(props) {
       </p>
 
       <input type="text" value={newAnimal} onChange={handleChange}/>
-      <button onClick={handleClick}>Change Animal</button>
+      <button onClick={handleClick}>Change Animal</button> */}
     </div>
   )
 }
 
 Card.defaultProps = {
+  src: "https://picsum.photos/420/320?image=0",
   textContent: "Some placeholder text"
 }
 
