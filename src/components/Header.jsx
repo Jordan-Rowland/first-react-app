@@ -1,13 +1,17 @@
 import React from "react";
-import "../styles/Header.css";
+
 
 function Header() {
   return (
     <div className="header">
+      <i
+        class="fab fa-airbnb header-icon">
+      </i>
       <ul className="links" >
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>Host a home</li>
+        <li>Host an experience</li>
+        <li>Sign up</li>
+        <li>Log in</li>
       </ul>
     </div>
   )

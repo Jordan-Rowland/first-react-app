@@ -1,15 +1,14 @@
 import React from 'react';
-import './App.css';
-import Header from "./components/Header"
-import Body from "./components/Body"
-import CardList from "./components/CardList"
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+import GalleryContainer from "./components/GalleryContainer.jsx";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Body header="hello"/> */}
-      <CardList />
+      <Hero />
+      <GalleryContainer />
     </div>
   );
 }
