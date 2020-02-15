@@ -5,7 +5,7 @@ import "../styles/Button.css";
 function Button(props) {
   return(
     <div className={`btn ${props.otherClasses}`}>
-      {props.text} <i class="fas fa-angle-right"></i>
+      {props.text} { props.icon && <i class="fas fa-angle-right"></i>}
     </div>
   );
 }

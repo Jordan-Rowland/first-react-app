@@ -1,5 +1,5 @@
 import React from "react";
-// import "../styles/ExploreCard.css";
+import "../styles/ExploreCard.css";
 
 
 function ExploreCard(props) {
@@ -12,5 +12,3 @@ function ExploreCard(props) {
 }
 
 export default ExploreCard;
-
-// require("../images/rhema-kallianpur-uocSnWMhnAs-unsplash.jpg")
