@@ -1,0 +1,68 @@
+.cta-card {
+  position: absolute;
+  top: 15.5%;
+  left: 5.5%;
+  width: 30%;
+  min-width: 440px;
+  height: 63%;
+  min-height: 482px;
+  background: hsl(210, 100%, 99%);
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 1px 2px 4px #808080c2;
+}
+
+.cta-card h1 {
+  margin-bottom: 1rem;
+  line-height: 2.2rem;
+}
+
+.cta-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.cta-block label {
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.12rem;
+}
+
+.cta-block input {
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 1.5px;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.cta-block input:focus {
+  outline: none;
+  border: 1.3px solid hsl(143, 92%, 28%)
+}
+
+.check-in-out {
+  display: flex;
+  flex-direction: row;
+}
+
+.check-in-out input {
+  width: 100%
+}
+
+.check-in {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-out {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-in input {
+  border-right: none;
+}

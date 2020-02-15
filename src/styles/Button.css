@@ -1,0 +1,38 @@
+.btn {
+  height: 3rem;
+  width: 100px;
+  background: hsl(0, 81%, 62%);
+  border-radius: 3.5px;
+  padding: .8rem 1.5rem;
+  font-weight: 700;
+  color: aliceblue;
+  letter-spacing: 0.6px;
+}
+
+.cta-btn {
+  position: relative;
+  top: 3px;
+  left: 74%;
+}
+
+.plus-btn {
+  position: relative;
+  top: 60%;
+  width: 150px;
+  height: 2.8rem;
+  margin: auto;
+  padding: 15px 22px;
+  font-size: 0.65rem;
+  border-radius: 3px;
+  background: hsl(0, 0%, 100%);
+  color: hsl(18, 66%, 13%);
+}
+
+.fa-angle-right {
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 3px;
+}

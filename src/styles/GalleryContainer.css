@@ -1,0 +1,87 @@
+.gallery-container {
+  top: 90vh;
+  margin: 40px auto;
+  position: relative;
+  width: 90%;
+}
+
+.gallery-container h2 {
+  margin: 5px;
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.gallery-container .section-details {
+  margin: 5px;
+  font-weight: 200;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 5.5rem;
+  /* border: 1px solid black; */
+}
+
+.explore-card {
+  position: relative;
+  display: flex;
+  border-radius: 0.6rem;
+  width: 32.5%;
+  height: 5.5rem;
+  overflow: hidden;
+  box-shadow: 3px 2px 9px 0px #d8d8d8;
+}
+
+.explore-card img {
+  height: 100%;
+}
+
+.explore-card-title {
+  margin-bottom: 30rem;
+  margin: 2.2rem 1.5rem;
+}
+
+.a-plus {
+  margin: 5px;
+  margin-top: 2rem;
+  height: 18rem;
+  border-radius: 4px;
+  background: url("../images/kelsey-curtis--27u_GzlAFw-unsplash.jpg") 15% 75%;
+  background-size: cover;
+  margin-bottom: 4.5rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+.feature-card {
+  padding: 2px;
+}
+
+.feature-card-img {
+  margin: auto;
+  margin-top: 1rem;
+  height: 325px;
+  width: 95%;
+  overflow: hidden;
+  border-radius: 9px;
+  margin-bottom: 0.3rem;
+}
+
+.feature-card img {
+  position: relative;
+  top: -20px;
+  width: 100%;
+}
+
+.feature-details {
+  line-height: 1.5rem;
+  width: 97%;
+  padding: 5px;
+  /* border: 1px solid black; */
+}

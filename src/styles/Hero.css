@@ -1,0 +1,27 @@
+.hero-img {
+  position: absolute;
+  top: 0px;
+  /* background: url("../images/roadcanyon.jpeg") center; */
+  /* background: url("../images/paul-gilmore-PjpuXmX7DAA-unsplash.jpg") top; */
+  background: url("../images/matthew-smith-rFBA42UFpLs-unsplash.jpg") top;
+  /* background: url("../images/boatmountain.jpeg") center; */
+  /* background: url("../images/Screen\ Shot\ 2020-02-13\ at\ 5.12.00\ PM.png") center; */
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.tagline {
+  position: absolute;
+  right: 1.6%;
+  bottom: 3%;
+}
+
+.tagline p {
+  color: hsl(0, 0%, 97%);
+  font-size: 0.89rem;
+  text-align: right;
+  line-height: 1.4rem;
+  letter-spacing: 0.01rem;
+}
